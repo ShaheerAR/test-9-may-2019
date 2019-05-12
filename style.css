@@ -1,0 +1,92 @@
+/* Write your CSS below. Try to make it responsive (i.e. no horizontal scroll) */
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: auto;
+}
+
+ul{
+    list-style: none;
+    float: right;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-weight: bolder;
+    padding: 15px;
+}
+
+li:hover{
+    cursor: pointer;
+    color: dimgrey;
+}
+
+.logo{
+    width: 130px;
+    height: 130px;
+    float: left;
+}
+
+.book-img{
+    max-width: 300px;
+    width: auto;
+
+    border-style: solid;
+    border-color: grey;
+}
+
+.info{
+    float: right;
+    margin-top: 0px;
+    padding: 20px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+ .add-btn{
+   color: white;
+   text-decoration: none;
+   background-color: #f2849e;
+   margin-top: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   padding-left: 100px;
+   padding-right: 100px;
+   
+
+}
+
+.add-btn:hover{
+    background-color: #ec4c75;
+
+}
+
+.details{
+    max-width: 1000px;
+    margin: auto;
+    line-height: 30px;
+}
+
+.product-details{
+    max-width: 1000px;
+    margin: auto;
+    line-height: 30px;
+}
+
+.author{
+    max-width: 1000px;
+    margin: auto;
+    line-height: 30px;
+}
